@@ -1,0 +1,7 @@
+/.idea
+/node_modules
+/scripts
+/scss
+gulpfile.js
+package.json
+package-lock.json
