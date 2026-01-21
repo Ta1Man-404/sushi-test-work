@@ -1,193 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth">
 <head>
     <meta charset="UTF-8">
     <title>Rollo</title>
     <link rel="stylesheet" href="dist/styles/styles.min.css">
 </head>
-<body>
+<body id="body">
+<div id="smooth-wrapper">
+    <div id="smooth-content">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Rollo</a>
+                </div>
 
-<header class="header">
-    <div class="container">
-        <div class="logo">
-            <a href="#">Rollo</a>
-        </div>
+                <div class="menu-open">Наведитесь, чтобы открыть меню</div>
 
-        <div class="menu-open">Наведитесь, чтобы открыть меню</div>
+                <nav class="menu-overlay">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Сеты</a></li>
+                            <li><a href="#">Классические роллы</a></li>
+                            <li><a href="#">Темпурные роллы</a></li>
+                            <li><a href="#">Роллы гриль</a></li>
+                            <li><a href="#">Фирменные роллы</a></li>
+                            <li><a href="#">Пицца</a></li>
+                            <li><a href="#">Удон</a></li>
+                            <li><a href="#">Супы</a></li>
+                            <li><a href="#">Рис</a></li>
+                            <li><a href="#">Суши</a></li>
+                            <li><a href="#">Закуски</a></li>
+                            <li><a href="#">Салаты</a></li>
+                            <li><a href="#">Напитки</a></li>
+                            <li><a href="#">Дополнительно</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
-        <nav class="menu-overlay">
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Сеты</a></li>
-                    <li><a href="#">Классические роллы</a></li>
-                    <li><a href="#">Темпурные роллы</a></li>
-                    <li><a href="#">Роллы гриль</a></li>
-                    <li><a href="#">Фирменные роллы</a></li>
-                    <li><a href="#">Пицца</a></li>
-                    <li><a href="#">Удон</a></li>
-                    <li><a href="#">Супы</a></li>
-                    <li><a href="#">Рис</a></li>
-                    <li><a href="#">Суши</a></li>
-                    <li><a href="#">Закуски</a></li>
-                    <li><a href="#">Салаты</a></li>
-                    <li><a href="#">Напитки</a></li>
-                    <li><a href="#">Дополнительно</a></li>
-                </ul>
+                <button type="button" class="menu-btn">
+                    Заказать
+                </button>
             </div>
-        </nav>
+        </header>
 
-        <button type="button" class="menu-btn">
-            Заказать
-        </button>
+        <!------------------------------------------------ГЛАВНАЯ-------------------------------------------------------------->
+
+        <section class="main">
+            <div class="container">
+                <div class="move-right">
+                    <h1 class="main-title">Роллы, суши и пицца с доставкой в радиусе 3км</h1>
+                    <div class="main-info">
+                        <div class="main-info-item">Акции каждый день</div>
+                        <div class="main-info-item">Средний чек 700-1100 ₽</div>
+                        <div class="main-info-item">Доставка и самовывоз</div>
+                        <div class="main-info-item">Работаем ежедневно 11:00-22:00</div>
+                        <div class="main-info-item">Скидка 15% в день рождения</div>
+                        <div class="main-info-item">Подарок при заказе от 3 000 ₽</div>
+                        <div class="main-info-item">Краснодар, Скандинавская 1к2</div>
+                    </div>
+                    <button class="main-btn">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------------------СЕТЫ---------------------------------------------------------------->
+
+        <section class="first-section">
+            <div class="container">
+                <h1 class="first-section-title">СЕТЫ</h1>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/1.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Трио
+                        </div>
+                        <div class="item-description">
+                            12 шт. - 335 гр
+                        </div>
+                        <div class="item-price">600 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/2.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Классические
+                        </div>
+                        <div class="item-description">
+                            18 шт. - 345 гр
+                        </div>
+                        <div class="item-price">670 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/3.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Онигири
+                        </div>
+                        <div class="item-description">
+                            4 шт. - 365 гр
+                        </div>
+                        <div class="item-price">600 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/4.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Кватро
+                        </div>
+                        <div class="item-description">
+                            16 шт. - 510 гр
+                        </div>
+                        <div class="item-price">850 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/5.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Хит
+                        </div>
+                        <div class="item-description">
+                            18 шт. - 575 гр
+                        </div>
+                        <div class="item-price">1000 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/6.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Темпурный
+                        </div>
+                        <div class="item-description">
+                            24 шт. - 800 гр
+                        </div>
+                        <div class="item-price">1300 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/7.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            Гриль
+                        </div>
+                        <div class="item-description">
+                            24 шт. - 775 гр
+                        </div>
+                        <div class="item-price">1350 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./dist/images/8.jpg" alt="image-one">
+                        </div>
+                        <div class="item-title">
+                            VIP
+                        </div>
+                        <div class="item-description">
+                            24 шт. - 750 гр
+                        </div>
+                        <div class="item-price">1550 р.</div>
+                        <button class="item-btn">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------------------------------------------------------------------------------->
+
+        <footer class="footer">
+        </footer>
     </div>
-</header>
+</div>
 
-<!------------------------------------------------ГЛАВНАЯ-------------------------------------------------------------->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"-->
+<!--        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>-->
 
-<section class="main">
-    <div class="container">
-        <div class="move-right">
-            <h1 class="main-title">Роллы, суши и пицца с доставкой в радиусе 3км</h1>
-            <div class="main-info">
-                <div class="main-info-item">Акции каждый день</div>
-                <div class="main-info-item">Средний чек 700-1100 ₽</div>
-                <div class="main-info-item">Доставка и самовывоз</div>
-                <div class="main-info-item">Работаем ежедневно 11:00-22:00</div>
-                <div class="main-info-item">Скидка 15% в день рождения</div>
-                <div class="main-info-item">Подарок при заказе от 3 000 ₽</div>
-                <div class="main-info-item">Краснодар, Скандинавская 1к2</div>
-            </div>
-            <button class="main-btn">Заказать</button>
-        </div>
-    </div>
-</section>
-
-<!-------------------------------------------------СЕТЫ---------------------------------------------------------------->
-
-<section class="first-section">
-    <div class="container">
-        <h1 class="first-section-title">СЕТЫ</h1>
-        <div class="items">
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/1.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Трио
-                </div>
-                <div class="item-description">
-                    12 шт. - 335 гр
-                </div>
-                <div class="item-price">600 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/2.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Классические
-                </div>
-                <div class="item-description">
-                    18 шт. - 345 гр
-                </div>
-                <div class="item-price">670 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/3.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Онигири
-                </div>
-                <div class="item-description">
-                    4 шт. - 365 гр
-                </div>
-                <div class="item-price">600 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/4.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Кватро
-                </div>
-                <div class="item-description">
-                    16 шт. - 510 гр
-                </div>
-                <div class="item-price">850 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/5.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Хит
-                </div>
-                <div class="item-description">
-                    18 шт. - 575 гр
-                </div>
-                <div class="item-price">1000 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/6.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Темпурный
-                </div>
-                <div class="item-description">
-                    24 шт. - 800 гр
-                </div>
-                <div class="item-price">1300 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/7.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    Гриль
-                </div>
-                <div class="item-description">
-                    24 шт. - 775 гр
-                </div>
-                <div class="item-price">1350 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-
-            <div class="item">
-                <div class="item-image">
-                    <img src="./dist/images/8.jpg" alt="image-one">
-                </div>
-                <div class="item-title">
-                    VIP
-                </div>
-                <div class="item-description">
-                    24 шт. - 750 гр
-                </div>
-                <div class="item-price">1550 р.</div>
-                <button class="item-btn">В корзину</button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--------------------------------------------------------------------------------------------------------------------->
-
-<footer class="footer">
-</footer>
-
+<script src="dist/jquery/dist/jquery.min.js"></script>
+<script src="dist/scripts/for-scroll.min.js"></script>
+<script src="dist/scripts/scroll.min.js"></script>
 <script src="dist/scripts/index.min.js"></script>
 </body>
 </html>
